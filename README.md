@@ -26,4 +26,5 @@ Bu siteden decode ettiğimizde en mantıklı olanı alıyoruz.
 Decode edilmiş cümledeki 'glag' kelimesini 'flag' yapıyoruz.
 'Super secret message for you the flag is chocolate! You are welcome.'
 Cümleyi sitede denediğimizde yanlış sonuç çıkıyor. 
+
 Bayrak = chocolate
