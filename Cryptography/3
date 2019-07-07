@@ -1,0 +1,47 @@
+---------------------------------------------- English ----------------------------------------------
+
+For https://ringzer0ctf.com/challenges/49
+
+We're downloading the file.
+
+We extract the tar file.
+
+tar -xf c96ac47d3b5c62b67219113fe6524122.tar
+
+cd flag /
+
+After some research, we find that the .enc and .pem files are encrypted.
+
+We're investigating the decryption command, and we see this:
+
+Openssl rsautl -decrypt -inkey private.pem of flag.enc
+
+When we enter this command we get the Flag;
+
+FLAG-vOAM5ZcReMNzJqOfxLauakHx
+
+How to solve? https://www.youtube.com/watch?v=4zIMZj1IW_I
+
+---------------------------------------------- Türkçe ----------------------------------------------
+
+https://ringzer0ctf.com/challenges/49 için;
+
+Verilen dosyayı indiriyoruz.
+
+tar dosyasını dışarı çıkartıyoruz. 
+
+tar -xf c96ac47d3b5c62b67219113fe6524122.tar
+
+cd flag/
+
+Biraz araştırdıktan sonra .enc ve .pem dosyalarının şifrelenmiş dosya olduğunu öğreniyoruz.
+
+Şifreyi çözme komutunu araştırıyoruz ve karşımıza bu komut çıkıyor:
+
+Openssl rsautl -decrypt -inkey private.pem -in flag.enc
+
+Bu komutu girdiğimizde Bayrağı alıyoruz;
+
+FLAG-vOAM5ZcReMNzJqOfxLauakHx
+
+Nasıl çözülür? https://www.youtube.com/watch?v=4zIMZj1IW_I
